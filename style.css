@@ -8,14 +8,14 @@ body {
 
 /* Style the top header bar */
 header {
-    background-color: #333333; /* Dark gray */
-    color: white;
+    background-color: #181d25; /* Dark gray */
+    color: #d2ccf5; /* purple */
     padding: 20px;
     text-align: center;
 }
 
 header a {
-    color: #4caf50; /* Green links */
+    color: #d2ccf5; /* purple links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -29,20 +29,20 @@ section {
 
 /* Give individual sections unique background colors using their IDs */
 #about {
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #181d25; /* Dark gray */
 }
 
 #projects {
-    background-color: #ffffff; /* White background */
+    background-color: #181d25; /* Dark gray */
 }
 
 #contact {
-    background-color: #e8f5e9; /* Light green background */
+    background-color: #181d25; /* Dark gray */
 }
 
 /* Style the bottom footer bar */
 footer {
-    background-color: #222222;
+    background-color: #06080c; /* DARK Dark gray */
     color: white;
     text-align: center;
     padding: 15px;
