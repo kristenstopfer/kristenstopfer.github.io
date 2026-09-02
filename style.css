@@ -1,0 +1,50 @@
+/* Apply a default font and reset margins for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style the top header bar */
+header {
+    background-color: #333333; /* Dark gray */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: #4caf50; /* Green links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style ALL sections with consistent spacing */
+section {
+    padding: 60px 20px; /* 60px top/bottom padding creates vertical space */
+    max-width: 800px;
+    margin: 0 auto; /* Centers the content box on the screen */
+}
+
+/* Give individual sections unique background colors using their IDs */
+#about {
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+#projects {
+    background-color: #ffffff; /* White background */
+}
+
+#contact {
+    background-color: #e8f5e9; /* Light green background */
+}
+
+/* Style the bottom footer bar */
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px; /* Pushes the footer away from the content above it */
+}
