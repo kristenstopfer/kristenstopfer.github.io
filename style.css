@@ -6,7 +6,7 @@ body {
     padding: 0;
     line-height: 1.6;
     font-size: 18px;
-    color: #d2ccf5;
+    color: white;
 }
 
 /* Style the top header bar */
@@ -22,7 +22,6 @@ h1, h2, h3, h4 {
 /* Style ALL sections with consistent spacing */
 section {
     background-color: #181d25;
-    color: white;
     padding: 60px 20px; /* 60px top/bottom padding creates vertical space */
     max-width: 800px;
     margin: 0 auto; /* Centers the content box on the screen */
