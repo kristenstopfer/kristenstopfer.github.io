@@ -71,11 +71,10 @@ footer {
 
 /* Ensure all webpage photos scale down nicely on phones and screens */
 .page-photo {
-    max-width: 100%; /* Prevents the image from being wider than its container */
+    max-width: 70%; /* Prevents the image from being wider than its container */
     height: auto;    /* Maintains the original aspect ratio so it doesn't stretch */
     display: block;
     margin: 20px auto; /* Centers the image horizontally with spacing around it */
     border-radius: 8px; /* Smooths down the sharp corners */
-    border: 1px solid #d2ccf5; /* Subtle purple frame line matching your headers */
     box-shadow: 0 4px 15px rgba(210, 204, 245, 0.2); /* Soft purple layout glow */
 }
