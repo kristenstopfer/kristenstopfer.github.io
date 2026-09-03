@@ -12,7 +12,7 @@ nav {
 nav a {
     color: #a59bf2; /* Soft purple color that pops on dark backgrounds */
     text-decoration: none; /* Removes the default ugly underline */
-    font-family: Cambria, Georgia, serif; /* Keeps it matching your body text */
+    font-family: 'Shizuru', sans-serif; 
     font-size: 18px;
     font-weight: bold;
     padding: 10px 20px; /* Creates a wide, clickable target box */
@@ -45,7 +45,7 @@ html, body {
 h1, h2, h3, h4 {
     font-family: 'Shizuru', sans-serif;
     font-weight: 600;
-    color: #d2ccf5; /* purple */
+    color: #a59bf2; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
     text-align: center;
 }
