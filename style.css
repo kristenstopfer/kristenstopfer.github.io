@@ -1,6 +1,7 @@
 @import url('https://googleapis.com');
 /* Apply a default font and reset margins for the whole page */
-body {
+html, body {
+    background-color: #0e0d17;
     font-family: Cambria, Georgia, serif;
     margin: 0;
     padding: 0;
@@ -11,7 +12,6 @@ body {
 
 /* Style the top header bar */
 h1, h2, h3, h4 {
-    background-color: #181d25; /* Dark gray */
     font-family: 'Shizuru', sans-serif;
     font-weight: 600;
     color: #d2ccf5; /* purple */
@@ -21,12 +21,14 @@ h1, h2, h3, h4 {
 
 /* Style ALL sections with consistent spacing */
 section {
-    background-color: #181d25;
     padding: 60px 20px; /* 60px top/bottom padding creates vertical space */
     max-width: 800px;
     margin: 0 auto; /* Centers the content box on the screen */
 }
 
+#about, #research, #arts, #contact {
+    background-color: transparent; /* Makes sections inherit the main body color */
+}
 /* Style the bottom footer bar */
 footer {
     background-color: #06080c; /* DARK Dark gray */
