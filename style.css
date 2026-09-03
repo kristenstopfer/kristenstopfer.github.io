@@ -28,23 +28,14 @@ header a {
 
 /* Style ALL sections with consistent spacing */
 section {
+    background-color: #181d25;
+    color: white;
     padding: 60px 20px; /* 60px top/bottom padding creates vertical space */
     max-width: 800px;
     margin: 0 auto; /* Centers the content box on the screen */
 }
 
-/* Give individual sections unique background colors using their IDs */
-#about {
-    background-color: #181d25; /* Dark gray */
-}
 
-#projects {
-    background-color: #181d25; /* Dark gray */
-}
-
-#contact {
-    background-color: #181d25; /* Dark gray */
-}
 
 /* Style the bottom footer bar */
 footer {
