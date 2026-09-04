@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
-/*<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
-/* Apply a default font and reset margins for the whole page */
+
+/* Apply margins for the whole page */
 nav {
-    text-align: center;
     padding: 10px 0;
 }
 
-/* 2. Format the base state of all navigation links */
+/* 2. Format the base state of all navigation links font-weight: bold; */
 nav a {
     color: #a59bf2; /* Soft purple color that pops on dark backgrounds */
-    text-decoration: none; /* Removes the default ugly underline */
+    text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 18px;
-    font-weight: bold;
     padding: 10px 20px; /* Creates a wide, clickable target box */
     margin: 0 5px;
     display: inline-block;
@@ -22,8 +18,8 @@ nav a {
 }
 /* 3. Format what happens when a user hovers their mouse over a link */
 nav a:hover {
-    color: #ffffff; /* Turns bright white on hover */
-    text-shadow: 0 0 10px #d2ccf5; /* Adds a soft neon glow effect matching your headers */
+    color: #b9ffc0; 
+    text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 /* 4. Format the "active" tab so users know what page they are currently visiting */
 nav a.active {
@@ -47,7 +43,6 @@ h1, h2, h3, h4 {
     font-weight: 600;
     color: #a59bf2; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
-    text-align: center;
 }
 
 /* Style ALL sections with consistent spacing */
