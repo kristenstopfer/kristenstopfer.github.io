@@ -41,7 +41,7 @@ html, body {
 /* Style the top header bar */
 h1, h2, h3, h4 {
     font-family: 'Shizuru', sans-serif;
-    font-weight: 600;
+    font-size: 30px;
     color: #a59bf2; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
 }
