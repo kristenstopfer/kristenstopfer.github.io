@@ -10,11 +10,12 @@ nav a {
     color: #a59bf2; /* Soft purple color that pops on dark backgrounds */
     text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
-    font-size: 18px;
+    font-size: 30px;
     padding: 10px 20px; /* Creates a wide, clickable target box */
     margin: 0 5px;
     display: inline-block;
     transition: all 0.3s ease; /* Makes color changes transition smoothly */
+    text-align: center;
 }
 /* 3. Format what happens when a user hovers their mouse over a link */
 nav a:hover {
