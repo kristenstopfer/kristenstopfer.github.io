@@ -75,21 +75,6 @@ footer {
     margin-top: 40px; /* Pushes the footer away from the content above it */
 }
 
-/* Container holds both the photo and the text */
-.profile-section {
-  display: flex;
-  align-items: flex-start; /* Aligns items to the top */
-  gap: 20px;               /* Adds a clean space between the photo and text */
-  text-align: left;        /* Ensures text inside is left-aligned */
-}
-
-/* Forces the photo to stay on the left at a set size */
-.profile-photo {
-  width: 200px;            /* Change to your preferred width */
-  height: auto;
-  flex-shrink: 0;          /* Prevents the image from squishing */
-}
-
 /* Ensure all webpage photos scale down nicely on phones and screens */
 .page-photo {
     max-width: 70%; /* Prevents the image from being wider than its container */
