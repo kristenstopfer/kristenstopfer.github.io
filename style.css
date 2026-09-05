@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
 
-/* Apply margins for the whole page */
-nav {
-    padding: 05px 0;
+header {
+position:fixed;
 }
+
+/*body {
+  margin-top: 80px; }/* Adjust this value to match your header's height */
+
 
 /* 2. Format the base state of all navigation links font-weight: bold; */
 nav a {
@@ -31,6 +34,7 @@ nav a.active {
 html, body {
     background-color: #0e0d17;
     font-family: Cambria, Georgia, serif;
+    margin-top: 80px
     margin: 0;
     padding: 0;
     line-height: 1.6;
