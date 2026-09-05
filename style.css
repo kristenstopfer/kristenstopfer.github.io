@@ -6,7 +6,7 @@ header {
     left: 0;                     /* Anchors it to the very left edge */
     width: 100%;                 /* Forces it to stretch all the way across */
     box-sizing: border-box; 
-    background-color: #0e0d17;
+    background-color: #032a2c;
     display: flex;
     justify-content: space-between; 
     align-items: center;           
@@ -17,7 +17,7 @@ body {
   margin-top: 200px; }
 
 nav a {
-    color: #a59bf2; 
+    color: ##9ff6ff; 
     text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 30px;
@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 html, body {
-    background-color: #0e0d17;
+    background-color: #032a2c;
     font-family: Cambria, Georgia, serif;
     margin-top: 100px
     margin: 0;
@@ -51,7 +51,7 @@ html, body {
 h1 {
     font-family: 'Shizuru', sans-serif;
     font-size: 50px;
-    color: #a59bf2; /* purple #d2ccf5 #a59bf2*/
+    color: #9ff6ff; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
 }
 
@@ -60,7 +60,7 @@ h2 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
     font-size: 22px;
-    color: #a59bf2; /* purple #d2ccf5 #a59bf2*/
+    color: #9ff6ff; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
 }
 
