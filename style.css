@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Shizuru&family=Yuji+Boku&display=swap');
 
 header {
     position:fixed;
@@ -49,8 +49,8 @@ html, body {
 
 /* Style the top header bar */
 h1 {
-    font-family: 'Shizuru', sans-serif;
-    font-size: 50px;
+    font-family: 'Kirang Haerang', sans-serif;
+    font-size: 40px;
     color: #9ff6ff; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
 }
