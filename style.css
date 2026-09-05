@@ -14,7 +14,7 @@ header {
 }
 
 body {
-  margin-top: 200px; }
+  margin-top: 150px; }
 
 nav a {
     color: #9ff6ff; 
@@ -59,7 +59,7 @@ h1 {
 h2 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 30px;
     color: #9ff6ff; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
 }
