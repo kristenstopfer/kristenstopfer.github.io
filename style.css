@@ -14,7 +14,7 @@ header {
 }
 
 body {
-  margin-top: 20px; }
+  margin-top: 60px; }
 
 nav a {
     color: #a59bf2; 
@@ -80,7 +80,8 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 40px; /* Pushes the footer away from the content above it */
+    margin-top: 40px; 
+    width: 100%
 }
 
 /* Ensure all webpage photos scale down nicely on phones and screens */
