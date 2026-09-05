@@ -4,30 +4,28 @@ header {
     position:fixed;
     background-color: #0e0d17;
     display: flex;
-    justify-content: space-between; /* Pushes title to the left, links to the right */
-    align-items: center;            /* Perfectly centers them vertically */
+    justify-content: space-between; 
+    align-items: center;           
     padding: 05px 20px;  
 }
 
 body {
-  margin-top: 100px; }
+  margin-top: 0px; }
 
-
-/* 2. Format the base state of all navigation links font-weight: bold; */
 nav a {
-    color: #a59bf2; /* Soft purple color that pops on dark backgrounds */
+    color: #a59bf2; 
     text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 30px;
-    padding: 10px 20px; /* Creates a wide, clickable target box */
+    padding: 10px 20px; 
     margin: 0 5px;
-    margin-left: 25px;              /* Adds spacing between individual links */
+    margin-left: 25px;             
     text-decoration: none;  
     display: inline-block;
-    transition: all 0.3s ease; /* Makes color changes transition smoothly */
+    transition: all 0.3s ease; 
     text-align: center;
 }
-/* 3. Format what happens when a user hovers their mouse over a link */
+
 nav a:hover {
     color: #b9ffc0; 
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
