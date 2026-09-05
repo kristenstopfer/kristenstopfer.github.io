@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
 
 header {
-position:fixed;
+    position:fixed;
+    background-color: #0e0d17;
 }
 
-/*body {
-  margin-top: 80px; }/* Adjust this value to match your header's height */
+body {
+  margin-top: 80px; }/* Adjust this value to match your header's height 
 
 
 /* 2. Format the base state of all navigation links font-weight: bold; */
