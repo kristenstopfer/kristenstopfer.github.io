@@ -6,7 +6,7 @@ header {
     display: flex;
     justify-content: space-between; /* Pushes title to the left, links to the right */
     align-items: center;            /* Perfectly centers them vertically */
-    padding: 10px 20px;  
+    padding: 05px 20px;  
 }
 
 body {
