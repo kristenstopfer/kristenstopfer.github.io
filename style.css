@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Modak&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Shizuru&display=swap');
 
 header {
     position:fixed;
@@ -49,8 +49,8 @@ html, body {
 
 /* Style the top header bar */
 h1 {
-    font-family: 'Modak', sans-serif;
-    font-size: 35px;
+    font-family: 'Cherry Bomb One', sans-serif;
+    font-size: 50px;
     color: #a59bf2; /* purple #d2ccf5 #a59bf2*/
     padding: 20px;
 }
