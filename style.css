@@ -29,7 +29,6 @@ nav a {
     transition: all 0.3s ease; 
     text-align: right;
 }
-
 nav a:hover {
     color: #b9ffc0; 
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
@@ -47,11 +46,10 @@ html, body {
     text-align: center;
 }
 
-/* Style the top header bar */
 h1 {
     font-family: 'Shizuru', sans-serif;
     font-size: 40px;
-    color: #b9ffc0; 
+    color: #a59bf2; /*purple*/
     padding: 20px;
 }
 
@@ -60,9 +58,26 @@ h2 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    color: #9ff6ff; /* purple #d2ccf5 #a59bf2*/
+    color: #9ff6ff; /*blue*/
     padding: 20px;
 }
+
+h3 {
+    font-family: 'Shizuru', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #b9ffc0; /*green*/
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Shizuru', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: #021921; /*dark background color*/
+    padding: 20px;
+}
+
 
 /* Style ALL sections with consistent spacing */
 section {
