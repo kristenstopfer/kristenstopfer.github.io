@@ -73,10 +73,16 @@ h3 {
 
 h4 {
     font-family: 'Shizuru', sans-serif;
-    font-weight: normal;
     font-size: 30px;
     color: #5a5342; /*dark brown*/
     padding: 20px;
+}
+
+h5 {
+    font-family: Cambria, Georgia, serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #3e4742; /*body font color*/
 }
 
 
@@ -101,6 +107,7 @@ footer {
     width: 100%
     max-width: 800px;    /* Limits the width on large screens */
     margin: 0 auto;
+    box-sizing: border-box; 
 }
 
 /* Ensure all webpage photos scale down nicely on phones and screens */
