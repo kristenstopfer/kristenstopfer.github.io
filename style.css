@@ -6,7 +6,7 @@ header {
     left: 0;                     /* Anchors it to the very left edge */
     width: 100%;                 /* Forces it to stretch all the way across */
     box-sizing: border-box; 
-    background-color: #021921;
+    background-color: #3e5e63; /* #021921 */
     display: flex;
     justify-content: space-between; 
     align-items: center;           
@@ -17,7 +17,7 @@ body {
   margin-top: 150px; }
 
 nav a {
-    color: #9ff6ff; 
+    color: #9ff6ff; #a59bf2
     text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 30px;
@@ -37,6 +37,7 @@ nav a:hover {
 html, body {
     background-color: #021921;
     font-family: Cambria, Georgia, serif;
+    max-width: 1200px; 
     margin-top: 100px
     margin: 0;
     padding: 0;
@@ -49,7 +50,7 @@ html, body {
 h1 {
     font-family: 'Shizuru', sans-serif;
     font-size: 40px;
-    color: #a59bf2; /*purple*/
+    color: #d2e6f5; /*blueish*/
     padding: 20px;
 }
 
@@ -58,7 +59,7 @@ h2 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    color: #9ff6ff; /*blue*/
+    color: #f0edde; /*tan*/
     padding: 20px;
 }
 
@@ -82,18 +83,18 @@ h4 {
 /* Style ALL sections with consistent spacing */
 section {
     padding: 60px 20px; /* 60px top/bottom padding creates vertical space */
-    max-width: 800px;
+    max-width: 1200px; 
     margin: 05px; 
     text-align: center;
 }
 
-#about, #research, #arts, #contact {
+#about, #research, #publications, #contact {
     background-color: transparent; /* Makes sections inherit the main body color */
 }
 /* Style the bottom footer bar */
 footer {
-    background-color: #021921; 
-    color: white;
+    background-color: #3e5e63; 
+    color: #f0edde;
     text-align: center;
     padding: 15px;
     margin-top: auto; 
