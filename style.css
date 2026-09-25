@@ -17,7 +17,7 @@ body {
   margin-top: 150px; }
 
 nav a {
-    color: #9ff6ff; #a59bf2
+    color: #f0edde; /* #9ff6ff; #a59bf2 */
     text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 30px;
@@ -96,7 +96,7 @@ footer {
     background-color: #3e5e63; 
     color: #f0edde;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     margin-top: auto; 
     width: 100%
 }
