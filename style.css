@@ -105,7 +105,7 @@ footer {
 
 /* Ensure all webpage photos scale down nicely on phones and screens */
 .page-photo {
-    max-width: 70%; /* Prevents the image from being wider than its container */
+    max-width: 50%; /* Prevents the image from being wider than its container */
     height: auto;    /* Maintains the original aspect ratio so it doesn't stretch */
     display: block;
     margin: 20px auto; /* Centers the image horizontally with spacing around it */
