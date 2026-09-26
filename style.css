@@ -30,7 +30,7 @@ nav a {
     text-align: right;
 }
 nav a:hover {
-    color: #b9ffc0; 
+    color: #b0bcff; 
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 
@@ -100,6 +100,19 @@ h5 {
     color: #3e4742; /*body font color*/
 }
 
+a:link {
+    color: #4c7777; /* default link color */
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #d2e6f5; /* Color for visited links (often kept similar to normal) */
+}
+
+a:hover {
+    color: #7172c7; /* purplish color on mouseover */
+    text-shadow: 0 0 10px #ffffff; /* glow effect*/
+}
 
 /* Style ALL sections with consistent spacing */
 section {
