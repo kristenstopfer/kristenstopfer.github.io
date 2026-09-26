@@ -120,10 +120,10 @@ footer {
     color: #f0edde;
     text-align: center;
     padding: 20px;
-    margin-top: auto; 
     width: 100%;
-    max-width: 800px;    /* Limits the width on large screens */
-    margin: 0 auto;
+    max-width: none;            /* REMOVE or delete any max-width lines here */
+    margin: 0;                  /* Removes side margins so it touches the edges */
+    margin-top: auto;           /* Keeps it pinned to the bottom */
     box-sizing: border-box; 
 }
 
