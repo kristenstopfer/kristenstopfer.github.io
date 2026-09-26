@@ -109,6 +109,11 @@ a:link {
     text-decoration: underline;
 }
 
+a:visited {
+    color: #4c7777; 
+    text-decoration: underline;
+}
+
 a:hover {
     color: #6b91c5; /* blueish color on mouseover */
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
