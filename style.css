@@ -28,10 +28,24 @@ nav a {
     display: inline-block;
     transition: all 0.3s ease; 
     text-align: right;
+
+nav a:visited {
+    color: #f0edde; /* #9ff6ff; #a59bf2 */
+    text-decoration: none; 
+    font-family: 'Shizuru', sans-serif; 
+    font-size: 30px;
+    padding: 10px 20px; 
+    margin: 0 5px;
+    margin-left: 25px;             
+    text-decoration: none;  
+    display: inline-block;
+    transition: all 0.3s ease; 
+    text-align: right;
 }
 nav a:hover {
     color: #8bff97; /* lime green */
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
+    text-decoration: none;
 }
 
 html, body {
