@@ -60,6 +60,10 @@ main, .content-container {
     flex: 1;                   /* Pushes the footer down naturally */
 }
 
+/* Custom class to force text alignment to the left */
+.left-align-only {
+    text-align: left;
+}
 
 
 h1 {
