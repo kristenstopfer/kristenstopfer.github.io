@@ -45,7 +45,6 @@ nav a {
 nav a:hover {
     color: #8bff97; /* lime green */
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
-    text-decoration: none;
 }
 
 html, body {
