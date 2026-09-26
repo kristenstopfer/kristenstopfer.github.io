@@ -37,15 +37,30 @@ nav a:hover {
 html, body {
     background-color: #97beb9;
     font-family: Cambria, Georgia, serif;
-    max-width: 1200px; 
-    margin-top: 100px
     margin: 0;
     padding: 0;
     line-height: 1.6;
     font-size: 18px;
     color: #3e4742;
     text-align: center;
+    /* Layout structural setup */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
+
+/* 2. Main Content Wrapper (Limits width of everything EXCEPT the footer) */
+main, .content-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto 0 auto; /* Handles the 100px top margin and centers it */
+    box-sizing: border-box;
+    padding: 0 20px;           /* Prevents text from hitting screen edges */
+    flex: 1;                   /* Pushes the footer down naturally */
+}
+
+
 
 h1 {
     font-family: 'Shizuru', sans-serif;
@@ -89,9 +104,11 @@ h5 {
 /* Style ALL sections with consistent spacing */
 section {
     padding: 60px 20px; /* 60px top/bottom padding creates vertical space */
-    max-width: 1200px; 
-    margin: 05px; 
+    width: 100%;        /* Allows the section to fill the content container */
+    max-width: 1200px;  /* Matches your layout's upper width limit */
+    margin: 5px auto;   /* Changed 05px to 5px, and auto centers the sections */
     text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't accidentally make sections too wide */
 }
 
 #about, #research, #publications, #contact {
@@ -112,7 +129,7 @@ footer {
 
 /* Ensure all webpage photos scale down nicely on phones and screens */
 .page-photo {
-    max-width: 50%; /* Prevents the image from being wider than its container */
+    max-width: 600px; /* Prevents the image from being wider than its container */
     height: auto;    /* Maintains the original aspect ratio so it doesn't stretch */
     display: block;
     margin: 20px auto; /* Centers the image horizontally with spacing around it */
