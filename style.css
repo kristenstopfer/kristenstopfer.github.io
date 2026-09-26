@@ -29,9 +29,9 @@ nav a {
     transition: all 0.3s ease; 
     text-align: right;
 
-nav a:visited {
+/*nav a:visited {
     color: #f0edde; /* #9ff6ff; #a59bf2 */
-    text-decoration: none; 
+   /* text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 30px;
     padding: 10px 20px; 
@@ -40,7 +40,7 @@ nav a:visited {
     text-decoration: none;  
     display: inline-block;
     transition: all 0.3s ease; 
-    text-align: right;
+    text-align: right; */
 }
 nav a:hover {
     color: #8bff97; /* lime green */
