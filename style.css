@@ -2,11 +2,11 @@
 
 header {
     position:fixed;
-    top: 0;                      /* Anchors it to the very top edge */
-    left: 0;                     /* Anchors it to the very left edge */
-    width: 100%;                 /* Forces it to stretch all the way across */
+    top: 0;                      
+    left: 0;                     
+    width: 100%;                
     box-sizing: border-box; 
-    background-color: #3e5e63; /* #021921 */
+    background-color: #143d4a; 
     display: flex;
     justify-content: space-between; 
     align-items: center;           
@@ -17,7 +17,7 @@ body {
   margin-top: 150px; }
 
 nav a {
-    color: #f0edde; /* #9ff6ff; #a59bf2 */
+    color: #8eb6ee; 
     text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 30px;
@@ -28,19 +28,6 @@ nav a {
     display: inline-block;
     transition: all 0.3s ease; 
     text-align: right;
-
-/*nav a:visited {
-    color: #f0edde; /* #9ff6ff; #a59bf2 */
-   /* text-decoration: none; 
-    font-family: 'Shizuru', sans-serif; 
-    font-size: 30px;
-    padding: 10px 20px; 
-    margin: 0 5px;
-    margin-left: 25px;             
-    text-decoration: none;  
-    display: inline-block;
-    transition: all 0.3s ease; 
-    text-align: right; */
 }
 nav a:hover {
     color: #8bff97; /* lime green */
@@ -82,7 +69,7 @@ main, .content-container {
 h1 {
     font-family: 'Shizuru', sans-serif;
     font-size: 40px;
-    color: #d2e6f5; /*blueish*/
+    color: #FFFFFF; /*white*/
     padding: 20px;
 }
 
@@ -91,7 +78,7 @@ h2 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    color: #f0edde; /*tan*/
+    color: #8eb6ee; /*blue*/
     padding: 20px;
 }
 
@@ -106,7 +93,7 @@ h3 {
 h4 {
     font-family: 'Shizuru', sans-serif;
     font-size: 30px;
-    color: #5a5342; /*dark brown*/
+    color: #062028; /*dark*/
     padding: 20px;
 }
 
@@ -114,21 +101,21 @@ h5 {
     font-family: Cambria, Georgia, serif;
     font-weight: normal;
     font-size: 25px;
-    color: #3e4742; /*body font color*/
+    color: #062028; /*body font color*/
 }
 
 a:link {
-    color: #4c7777; /* default link color */
+    color: #6b91c5; /* default link color */
     text-decoration: none;
 }
 
 a:visited {
-    color: #4c7777; 
+    color: #7f9dc7; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #3e5e63; /* darker teal on mouseover */
+    color: #6cd08e; /* green on mouseover */
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 
