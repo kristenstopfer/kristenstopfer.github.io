@@ -119,16 +119,16 @@ h5 {
 
 a:link {
     color: #4c7777; /* default link color */
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
     color: #4c7777; 
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #6b91c5; /* blueish color on mouseover */
+    color: #3e5e63; /* darker teal on mouseover */
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 
