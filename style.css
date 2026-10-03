@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Shizuru&family=Yuji+Boku&display=swap');
 
-header {
+/*header {
     position:fixed;
     top: 0;                      
     left: 0;                     
@@ -10,7 +10,16 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center;           
-    padding: 0px 20px;  
+    padding: 0px 20px;  */
+    
+  header {
+  /* Scales between 40px and 80px depending on screen width */
+  background-color: #143d4a; 
+  display: flex;
+  padding: clamp(20px, 5vw, 40px) 20px;
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  transition: padding 0.3s ease;
+
 }
 
 body {
