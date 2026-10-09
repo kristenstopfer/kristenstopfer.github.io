@@ -201,8 +201,8 @@ section {
 }
 /* Style the bottom footer bar */
 footer {
-    background-color: #3e5e63; 
-    color: #f0edde;
+    background-color: var(--color-2); 
+    color: var(--color-1-tint-60);
     text-align: center;
     padding: 20px;
     width: 100%;
