@@ -131,6 +131,93 @@ main, .content-container {
     flex: 1;                   /* Pushes the footer down naturally */
 }
 
+/* Container Spacing */
+.page-container {
+  max-width: 900px; /* Narrower width makes long text rows easier to read */
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Heading styling matching your dark theme */
+.section-title {
+  color: #143d4a;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Row Container */
+.profile-row {
+  display: flex;
+  flex-wrap: wrap; /* Crucial for mobile: wraps content when screen is tight */
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+/* Left Image Box */
+.image-column {
+  flex: 0 0 200px; /* Keeps the picture fixed at 200px wide on desktop */
+  min-height: 220px;
+  background-color: #f1f5f9; /* Gray fallback background */
+}
+
+.image-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* Right Text Content Box */
+.text-column {
+  flex: 1; /* Automatically takes up all remaining width */
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Text Element Styling */
+.text-column h3 {
+  margin: 0 0 5px 0;
+  color: #143d4a;
+  font-size: 1.4rem;
+}
+
+.text-column .subtitle {
+  margin: 0 0 15px 0;
+  color: #64748b;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.text-column .bio {
+  margin: 0 0 20px 0;
+  color: #334155;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+
+/* 3. Mobile Optimization (Media Query) */
+@media (max-width: 600px) {
+  .profile-row {
+    flex-direction: column; /* Stacks image on top, text on bottom */
+  }
+  
+  .image-column {
+    flex: 0 0 240px; /* Gives the picture box a standard aspect ratio on phones */
+    width: 100%;
+  }
+}
+
+
 /* Custom class to force text alignment to the left */
 .left-align-only {
     text-align: left;
