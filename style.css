@@ -62,7 +62,7 @@
   padding: clamp(6px, 1vw, 10px) 20px;
   
   /* 3. Sleeker, more compact typography limits */
-  font-size: clamp(0.85rem, 1vw + 0.4rem, 1.1rem);
+  font-size: clamp(1.1rem, 1.2vw + 0.6rem, 1.4rem);
   
   /* Smooth scaling behavior */
   transition: padding 0.3s ease, font-size 0.3s ease;
