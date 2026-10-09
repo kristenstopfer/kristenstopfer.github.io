@@ -31,6 +31,22 @@
         </section>
     </main>
 
+    <script>
+    const header = document.querySelector('header');
+
+    function updateHeaderHeight() {
+      if (header) {
+        const headerHeight = header.offsetHeight; 
+        document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+      }
+    }
+
+    // Run when layout is ready, when fully loaded, and whenever the screen changes size
+    window.addEventListener('DOMContentLoaded', updateHeaderHeight);
+    window.addEventListener('load', updateHeaderHeight);
+    window.addEventListener('resize', updateHeaderHeight);
+  </script>
+
 </body>
     
   <footer>
