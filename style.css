@@ -1,19 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Shizuru&family=Yuji+Boku&display=swap');
 
-/*header {
-    position:fixed;
-    top: 0;                      
-    left: 0;                     
-    width: 100%;                
-    box-sizing: border-box; 
-    background-color: #143d4a; 
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;           
-    padding: 0px 20px;  */
+:root {
+  --color-1: #25504B; /* teal */
+  --color-2: #16322E; /* dark teal */
+  --color-3: #47805C; /* green */
+  --color-4: #1E412B; /* dark green */
+  --color-5: #365568; /* blue */
+  --color-6: #172731; /* dark blue */
+
+  /* teal tints */
+  --color-1-tint-20: color-mix(in srgb, var(--color-1), #ffffff 20%);
+  --color-1-tint-40: color-mix(in srgb, var(--color-1), #ffffff 40%);
+  --color-1-tint-60: color-mix(in srgb, var(--color-1), #ffffff 60%);
+  --color-1-tint-80: color-mix(in srgb, var(--color-1), #ffffff 80%);
+
+  /* dark teal tints */
+  --color-2-tint-20: color-mix(in srgb, var(--color-2), #ffffff 20%);
+  --color-2-tint-40: color-mix(in srgb, var(--color-2), #ffffff 40%);
+  --color-2-tint-60: color-mix(in srgb, var(--color-2), #ffffff 60%);
+  --color-2-tint-80: color-mix(in srgb, var(--color-2), #ffffff 80%);
+
+  /* green tints */
+  --color-3-tint-20: color-mix(in srgb, var(--color-3), #ffffff 20%);
+  --color-3-tint-40: color-mix(in srgb, var(--color-3), #ffffff 40%);
+  --color-3-tint-60: color-mix(in srgb, var(--color-3), #ffffff 60%);
+  --color-3-tint-80: color-mix(in srgb, var(--color-3), #ffffff 80%);
+
+  /* dark green tints */
+  --color-4-tint-20: color-mix(in srgb, var(--color-4), #ffffff 20%);
+  --color-4-tint-40: color-mix(in srgb, var(--color-4), #ffffff 40%);
+  --color-4-tint-60: color-mix(in srgb, var(--color-4), #ffffff 60%);
+  --color-4-tint-80: color-mix(in srgb, var(--color-4), #ffffff 80%);
+
+  /* blue tints */
+  --color-5-tint-20: color-mix(in srgb, var(--color-5), #ffffff 20%);
+  --color-5-tint-40: color-mix(in srgb, var(--color-5), #ffffff 40%);
+  --color-5-tint-60: color-mix(in srgb, var(--color-5), #ffffff 60%);
+  --color-5-tint-80: color-mix(in srgb, var(--color-5), #ffffff 80%);
+
+  /* dark blue tints */
+  --color-6-tint-20: color-mix(in srgb, var(--color-6), #ffffff 20%);
+  --color-6-tint-40: color-mix(in srgb, var(--color-6), #ffffff 40%);
+  --color-6-tint-60: color-mix(in srgb, var(--color-6), #ffffff 60%);
+  --color-6-tint-80: color-mix(in srgb, var(--color-6), #ffffff 80%);
+}
     
   header {
-  background-color: #143d4a; 
+  background-color: var(--color-2); 
   display: flex;
   align-items: center; /* Keeps header content centered vertically as it shrinks */
   /* 1. Fix to the top of the window */
@@ -34,7 +67,7 @@ body {
   padding-top: 70px;  }
 
 nav a {
-    color: #8eb6ee; 
+    color: var(--color-1-tint-60); 
     text-decoration: none; 
     font-family: 'Shizuru', sans-serif; 
     font-size: 30px;
@@ -47,18 +80,18 @@ nav a {
     text-align: right;
 }
 nav a:hover {
-    color: #8bff97; /* lime green */
+    color: var(--color-3); /* lime green */
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 
 html, body {
-    background-color: #97beb9;
+    background-color: var(--color-5-tint-80);
     font-family: Cambria, Georgia, serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     font-size: 18px;
-    color: #3e4742;
+    color: var(--color-6);
     text-align: center;
     /* Layout structural setup */
     height: 100%;
@@ -86,7 +119,7 @@ main, .content-container {
 h1 {
     font-family: 'Shizuru', sans-serif;
     font-size: 40px;
-    color: #FFFFFF; /*white*/
+    color: var(--color-1-tint-80); 
     padding: 20px;
 }
 
@@ -95,7 +128,7 @@ h2 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    color: #8eb6ee; /*blue*/
+    color: var(--color-5); /*blue*/
     padding: 20px;
 }
 
@@ -103,14 +136,14 @@ h3 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    color: #b9ffc0; /*green*/
+    color: var(--color-3); /*green*/
     padding: 20px;
 }
 
 h4 {
     font-family: 'Shizuru', sans-serif;
     font-size: 30px;
-    color: #062028; /*dark*/
+    color: var(--color-4); 
     padding: 20px;
 }
 
@@ -118,21 +151,21 @@ h5 {
     font-family: Cambria, Georgia, serif;
     font-weight: normal;
     font-size: 25px;
-    color: #062028; /*body font color*/
+    color: var(--color-6); /*body font color*/
 }
 
 a:link {
-    color: #6b91c5; /* default link color */
+    color: var(--color-6-tint-40); /* default link color */
     text-decoration: none;
 }
 
 a:visited {
-    color: #7f9dc7; 
+    color: var(--color-6-tint-60); 
     text-decoration: none;
 }
 
 a:hover {
-    color: #6cd08e; /* green on mouseover */
+    color: var(--color-6-tint-20); 
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 
