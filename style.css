@@ -71,8 +71,6 @@
   box-sizing: border-box;
 }
 
-body {
-  padding-top: 70px;  }
 
 header nav a {
   color: var(--color-1-tint-60); 
@@ -100,6 +98,11 @@ header nav a {
 nav a:hover {
     color: var(--color-3); /* lime green */
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
+}
+
+body {
+ padding-top: var(--header-height, 60px)  
+ margin: 0;
 }
 
 html, body {
