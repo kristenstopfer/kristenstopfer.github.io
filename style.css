@@ -49,9 +49,7 @@
   background-color: var(--color-2); 
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Spreads logo and nav to edges */
-  
-  /* 1. Fix to the top of the window */
+  justify-content: space-between; 
   position: fixed;
   top: 0;
   left: 0;
@@ -60,7 +58,7 @@
  /* padding: clamp(6px, 1vw, 10px) 10px;
   font-size: clamp(1.1rem, 1.2vw + 0.6rem, 1.4rem); */
   height: 70px;
-  padding: 2px 20px;
+  padding: 1px 10px;
   transition: padding 0.3s ease, font-size 0.3s ease;
   box-sizing: border-box;
 }
@@ -69,7 +67,7 @@
 
 header nav {
   display: flex;
-  gap: 40px; /* Adjust this number to increase/decrease space between links */
+  gap: 80px; /* Adjust this number to increase/decrease space between links */
   align-items: center;
   height: 100%; /*remove if ehader weird*/
 }
@@ -80,8 +78,8 @@ header nav a {
   font-family: 'Shizuru', sans-serif; 
   margin: 0;
   line-height: 1; /* Stops text line-height from stretching the thin header */
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 0.2px;
+  padding-bottom: 0.2px;
   transition: all 0.3s ease;
 }
 
@@ -90,7 +88,7 @@ header h1 {
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
     height: 100%;
