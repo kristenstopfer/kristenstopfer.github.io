@@ -263,17 +263,17 @@ h5 {
 }
 
 a:link {
-    color: var(--color-6-tint-40); /* default link color */
+    color: var(--color-6); /* default link color */
     text-decoration: none;
 }
 
 a:visited {
-    color: var(--color-6-tint-60); 
+    color: var(--color-6-tint-20); 
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--color-6-tint-20); 
+    color: var(--color-5); 
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 
