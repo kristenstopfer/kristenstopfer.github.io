@@ -161,7 +161,7 @@ main, .content-container {
   display: flex;
   align-items: center;  /* Centers image vertically */
   justify-content: center; /* Centers image horizontally */
-  padding: 10px; /* Creates the "smaller than container" buffer gap around the image */
+  padding: 25px; /* Creates the "smaller than container" buffer gap around the image */
   box-sizing: border-box;
 }
 
