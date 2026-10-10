@@ -102,9 +102,8 @@ main, .content-container {
 }
 
 .text-container {
-  background: var(--color-5-tint-40);
-  border: 2px solid var(--color-5);
-  border-left: 6px solid var(--color-5); /* Thick accent bar on the left side */
+  background: var(--color-1-tint-80);
+  border: 2px solid var(--color-1);
   border-radius: 6px;
   padding: 10px;
   margin-bottom: 5px;
@@ -121,7 +120,7 @@ main, .content-container {
   background: var(--color-1-tint-80);
   border: 2px solid var(--color-1);
   border-radius: 6px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   overflow: hidden;
   width: 100%;
   box-sizing: border-box;
