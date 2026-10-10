@@ -1,49 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Shizuru&family=Yuji+Boku&display=swap');
-
-:root {
-  --color-1: #25504B; /* teal */
-  --color-2: #16322E; /* dark teal */
-  --color-3: #47805C; /* green */
-  --color-4: #1E412B; /* dark green */
-  --color-5: #365568; /* blue */
-  --color-6: #172731; /* dark blue */
-
-  /* teal tints */
-  --color-1-tint-20: color-mix(in srgb, var(--color-1), #ffffff 20%);
-  --color-1-tint-40: color-mix(in srgb, var(--color-1), #ffffff 40%);
-  --color-1-tint-60: color-mix(in srgb, var(--color-1), #ffffff 60%);
-  --color-1-tint-80: color-mix(in srgb, var(--color-1), #ffffff 80%);
-
-  /* dark teal tints */
-  --color-2-tint-20: color-mix(in srgb, var(--color-2), #ffffff 20%);
-  --color-2-tint-40: color-mix(in srgb, var(--color-2), #ffffff 40%);
-  --color-2-tint-60: color-mix(in srgb, var(--color-2), #ffffff 60%);
-  --color-2-tint-80: color-mix(in srgb, var(--color-2), #ffffff 80%);
-
-  /* green tints */
-  --color-3-tint-20: color-mix(in srgb, var(--color-3), #ffffff 20%);
-  --color-3-tint-40: color-mix(in srgb, var(--color-3), #ffffff 40%);
-  --color-3-tint-60: color-mix(in srgb, var(--color-3), #ffffff 60%);
-  --color-3-tint-80: color-mix(in srgb, var(--color-3), #ffffff 80%);
-
-  /* dark green tints */
-  --color-4-tint-20: color-mix(in srgb, var(--color-4), #ffffff 20%);
-  --color-4-tint-40: color-mix(in srgb, var(--color-4), #ffffff 40%);
-  --color-4-tint-60: color-mix(in srgb, var(--color-4), #ffffff 60%);
-  --color-4-tint-80: color-mix(in srgb, var(--color-4), #ffffff 80%);
-
-  /* blue tints */
-  --color-5-tint-20: color-mix(in srgb, var(--color-5), #ffffff 20%);
-  --color-5-tint-40: color-mix(in srgb, var(--color-5), #ffffff 40%);
-  --color-5-tint-60: color-mix(in srgb, var(--color-5), #ffffff 60%);
-  --color-5-tint-80: color-mix(in srgb, var(--color-5), #ffffff 80%);
-
-  /* dark blue tints */
-  --color-6-tint-20: color-mix(in srgb, var(--color-6), #ffffff 20%);
-  --color-6-tint-40: color-mix(in srgb, var(--color-6), #ffffff 40%);
-  --color-6-tint-60: color-mix(in srgb, var(--color-6), #ffffff 60%);
-  --color-6-tint-80: color-mix(in srgb, var(--color-6), #ffffff 80%);
-}
     
  header {
   background-color: var(--color-2); 
@@ -146,6 +101,17 @@ main, .content-container {
   margin-bottom: 5px;
 }
 
+.text-container {
+  background: var(--color-5-tint-40);
+  border: 2px solid var(--color-5);
+  border-left: 6px solid var(--color-5); /* Thick accent bar on the left side */
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 /* Row Container */
 .profile-row {
   display: flex;
@@ -164,7 +130,7 @@ main, .content-container {
 .profile-row.row-reverse {
   flex-direction: row-reverse;
 }
-/* Left Image Box */
+
 .image-column {
   flex: 0 1 500px; /* Keeps the picture fixed at 200px wide on desktop */
   max-width: 100%
@@ -180,7 +146,6 @@ main, .content-container {
   display: block;
 }
 
-
 .text-column {
   flex: 1; /* Automatically takes up all remaining width */
   padding: 10px;
@@ -189,7 +154,6 @@ main, .content-container {
   min-width: 0;
 }
 
-/* Text Element Styling */
 .text-column  {
   margin: 0 0 5px 0;
   color: #143d4a;
@@ -197,24 +161,19 @@ main, .content-container {
 }
 
 
-/* 3. Mobile Optimization (Media Query) */
 @media (max-width: 600px) {
   .profile-row {
     flex-direction: column; /* Stacks image on top, text on bottom */
   }
-  
   .image-column {
     flex: 0 0 240px; /* Gives the picture box a standard aspect ratio on phones */
     width: 100%;
   }
 }
 
-
-/* Custom class to force text alignment to the left */
 .left-align-only {
     text-align: left;
 }
-
 
 h1 {
     font-family: 'Shizuru', sans-serif;
@@ -222,8 +181,6 @@ h1 {
     color: var(--color-1-tint-80); 
     padding: 20px;
 }
-
-
 h2 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
@@ -231,7 +188,6 @@ h2 {
     color: var(--color-5); /*blue*/
     padding: 20px;
 }
-
 h3 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
@@ -239,14 +195,12 @@ h3 {
     color: var(--color-3); /*green*/
     padding: 20px;
 }
-
 h4 {
     font-family: 'Shizuru', sans-serif;
     font-size: 30px;
     color: var(--color-4); 
     padding: 20px;
 }
-
 h5 {
     font-family: Cambria, Georgia, serif;
     font-weight: normal;
@@ -258,18 +212,11 @@ a:link {
     color: var(--color-6); /* default link color */
     text-decoration: none;
 }
-
-/*a:visited {
-    color: var(--color-6-tint-20); 
-    text-decoration: none;
-}*/
-
 a:hover {
     color: var(--color-5); 
     text-shadow: 0 0 10px #ffffff; /* glow effect*/
 }
 
-/* Style ALL sections with consistent spacing */
 section {
     padding: 60px 20px; /* 60px top/bottom padding creates vertical space */
     width: 100%;        /* Allows the section to fill the content container */
@@ -282,12 +229,12 @@ section {
 #about, #research, #publications, #contact {
     background-color: transparent; /* Makes sections inherit the main body color */
 }
-/* Style the bottom footer bar */
+
 footer {
     background-color: var(--color-2); 
     color: var(--color-1-tint-60);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     max-width: none;            /* REMOVE or delete any max-width lines here */
     margin: 0;                  /* Removes side margins so it touches the edges */
@@ -303,4 +250,49 @@ footer {
     margin: 20px auto; /* Centers the image horizontally with spacing around it */
     border-radius: 8px; /* Smooths down the sharp corners */
     box-shadow: 0 4px 15px rgba(210, 204, 245, 0.2); /* Soft purple layout glow */
+}
+
+:root {
+  --color-1: #25504B; /* teal */
+  --color-2: #16322E; /* dark teal */
+  --color-3: #47805C; /* green */
+  --color-4: #1E412B; /* dark green */
+  --color-5: #365568; /* blue */
+  --color-6: #172731; /* dark blue */
+
+  /* teal tints */
+  --color-1-tint-20: color-mix(in srgb, var(--color-1), #ffffff 20%);
+  --color-1-tint-40: color-mix(in srgb, var(--color-1), #ffffff 40%);
+  --color-1-tint-60: color-mix(in srgb, var(--color-1), #ffffff 60%);
+  --color-1-tint-80: color-mix(in srgb, var(--color-1), #ffffff 80%);
+
+  /* dark teal tints */
+  --color-2-tint-20: color-mix(in srgb, var(--color-2), #ffffff 20%);
+  --color-2-tint-40: color-mix(in srgb, var(--color-2), #ffffff 40%);
+  --color-2-tint-60: color-mix(in srgb, var(--color-2), #ffffff 60%);
+  --color-2-tint-80: color-mix(in srgb, var(--color-2), #ffffff 80%);
+
+  /* green tints */
+  --color-3-tint-20: color-mix(in srgb, var(--color-3), #ffffff 20%);
+  --color-3-tint-40: color-mix(in srgb, var(--color-3), #ffffff 40%);
+  --color-3-tint-60: color-mix(in srgb, var(--color-3), #ffffff 60%);
+  --color-3-tint-80: color-mix(in srgb, var(--color-3), #ffffff 80%);
+
+  /* dark green tints */
+  --color-4-tint-20: color-mix(in srgb, var(--color-4), #ffffff 20%);
+  --color-4-tint-40: color-mix(in srgb, var(--color-4), #ffffff 40%);
+  --color-4-tint-60: color-mix(in srgb, var(--color-4), #ffffff 60%);
+  --color-4-tint-80: color-mix(in srgb, var(--color-4), #ffffff 80%);
+
+  /* blue tints */
+  --color-5-tint-20: color-mix(in srgb, var(--color-5), #ffffff 20%);
+  --color-5-tint-40: color-mix(in srgb, var(--color-5), #ffffff 40%);
+  --color-5-tint-60: color-mix(in srgb, var(--color-5), #ffffff 60%);
+  --color-5-tint-80: color-mix(in srgb, var(--color-5), #ffffff 80%);
+
+  /* dark blue tints */
+  --color-6-tint-20: color-mix(in srgb, var(--color-6), #ffffff 20%);
+  --color-6-tint-40: color-mix(in srgb, var(--color-6), #ffffff 40%);
+  --color-6-tint-60: color-mix(in srgb, var(--color-6), #ffffff 60%);
+  --color-6-tint-80: color-mix(in srgb, var(--color-6), #ffffff 80%);
 }
