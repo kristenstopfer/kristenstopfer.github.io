@@ -65,7 +65,7 @@
 
 header nav {
   display: flex;
-  gap: 20px; /* Adjust this number to increase/decrease space between links */
+  gap: 40px; /* Adjust this number to increase/decrease space between links */
   align-items: center;
 }
 
