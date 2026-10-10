@@ -110,6 +110,22 @@ main, .content-container {
   margin-bottom: 5px;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.text-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.text-container .divider {
+  width: 1px; /* Thickness of the vertical line */
+  background-color: var(--color-1); /* Uses your theme color */
+  opacity: 0.4; /* Softens the line so it isn't too harsh */
+  align-self: stretch; /* Forces it to span from top to bottom padding bounds */
 }
 
 /* Row Container */
