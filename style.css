@@ -125,6 +125,11 @@ main, .content-container {
   overflow: hidden;
   width: 100%;
   box-sizing: border-box;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.profile-row:hover {
+  box-shadow: 0 0 20px 4px var(--color-1-tint-80); 
 }
 
 .profile-row.row-reverse {
