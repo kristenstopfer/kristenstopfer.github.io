@@ -80,7 +80,7 @@ html, body {
 main, .content-container {
     max-width: 1200px;
     width: 100%;
-    margin: 100px auto 0 auto; /* Handles the 100px top margin and centers it */
+    margin: 20px auto 0 auto; /* Handles the 100px top margin and centers it */
     box-sizing: border-box;
     padding: 0 20px;           /* Prevents text from hitting screen edges */
     flex: 1;                   /* Pushes the footer down naturally */
@@ -107,7 +107,7 @@ main, .content-container {
   border: 2px solid var(--color-1);
   border-radius: 6px;
   padding: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -137,7 +137,7 @@ main, .content-container {
   background: var(--color-1-tint-80);
   border: 2px solid var(--color-1);
   border-radius: 6px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   overflow: hidden;
   width: 100%;
   box-sizing: border-box;
