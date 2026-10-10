@@ -116,6 +116,18 @@ main, .content-container {
   min-width: 0;
 }
 
+.text-section h2 {
+  margin-top: 0;
+  margin-bottom: 4px; /* Gives just a tiny, clean gap between them */
+  line-height: 1.2;    /* Prevents the invisible font-box from pushing text away */
+}
+
+.text-section p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;    /* Keeps paragraph text highly readable */
+}
+
 .text-container .divider {
   height: 1px; /* Thickness of the vertical line */
   background-color: var(--color-1); /* Uses your theme color */
