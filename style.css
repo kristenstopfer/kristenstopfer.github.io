@@ -161,6 +161,9 @@ main, .content-container {
   box-sizing: border-box;
 }
 
+.profile-row.row-reverse {
+  flex-direction: row-reverse;
+}
 /* Left Image Box */
 .image-column {
   flex: 0 1 500px; /* Keeps the picture fixed at 200px wide on desktop */
