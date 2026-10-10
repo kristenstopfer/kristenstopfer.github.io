@@ -240,6 +240,7 @@ footer {
     margin: 0;                  /* Removes side margins so it touches the edges */
     margin-top: auto;           /* Keeps it pinned to the bottom */
     box-sizing: border-box; 
+    flex-shrink: 0;
 }
 
 /* Ensure all webpage photos scale down nicely on phones and screens */
