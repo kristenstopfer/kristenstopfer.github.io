@@ -104,8 +104,6 @@ main, .content-container {
 
 .text-container {
   background: var(--color-1-tint-80);
-  border: 2px solid var(--color-1);
-  border-radius: 6px;
   padding: 10px;
   margin-bottom: 20px;
   width: 100%;
@@ -128,6 +126,12 @@ main, .content-container {
   align-self: stretch; /* Forces it to span from top to bottom padding bounds */
 }
 
+.text-container:hover {
+  box-shadow: 0 0 20px 4px var(--color-1-tint-80); 
+  border: 2px solid var(--color-1);
+  border-radius: 6px;
+}
+
 /* Row Container */
 .profile-row {
   display: flex;
@@ -135,8 +139,6 @@ main, .content-container {
   align-items: stretch;
   /*flex-wrap: wrap;  Crucial for mobile: wraps content when screen is tight */
   background: var(--color-1-tint-80);
-  border: 2px solid var(--color-1);
-  border-radius: 6px;
   margin-bottom: 20px;
   overflow: hidden;
   width: 100%;
@@ -146,6 +148,8 @@ main, .content-container {
 
 .profile-row:hover {
   box-shadow: 0 0 20px 4px var(--color-1-tint-80); 
+  border: 2px solid var(--color-1);
+  border-radius: 6px;
 }
 
 .profile-row.row-reverse {
