@@ -137,17 +137,24 @@ main, .content-container {
 }
 
 .image-column {
-  flex: 0 1 500px; /* Keeps the picture fixed at 200px wide on desktop */
-  max-width: 100%
-  min-height: 220px;
+  flex: 0 1 300px; 
   background-color: var(-color--1); /* Gray fallback background */
   position: relative;
 }
 
+display: flex;
+  align-items: center;  /* Centers image vertically */
+  justify-content: center; /* Centers image horizontally */
+  padding: 10px; /* Creates the "smaller than container" buffer gap around the image */
+  box-sizing: border-box;
+}
+
 .image-column img {
   width: 100%;
-  height: 100%;
+  height: auto
+  aspect-ratio: 4/3
   object-fit: cover; /* Crops the photo cleanly to fit the box without stretching */
+  border-radius: 4px
   display: block;
 }
 
