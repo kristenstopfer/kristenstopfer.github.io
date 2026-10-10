@@ -111,7 +111,7 @@ main, .content-container {
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: stretch;
   gap: 10px;
 }
@@ -122,7 +122,7 @@ main, .content-container {
 }
 
 .text-container .divider {
-  width: 1px; /* Thickness of the vertical line */
+  height: 1px; /* Thickness of the vertical line */
   background-color: var(--color-1); /* Uses your theme color */
   opacity: 0.4; /* Softens the line so it isn't too harsh */
   align-self: stretch; /* Forces it to span from top to bottom padding bounds */
