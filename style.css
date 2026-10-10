@@ -22,7 +22,7 @@
 
 header nav {
   display: flex;
-  gap: 100px; /* Adjust this number to increase/decrease space between links */
+  gap: 90px; /* Adjust this number to increase/decrease space between links */
   align-items: center;
   height: 100%; /*remove if ehader weird*/
 }
@@ -31,6 +31,7 @@ header nav a {
   color: var(--color-1-tint-80); 
   text-decoration: none; 
   font-family: 'Shizuru', sans-serif; 
+  font-size: 1.4rem; 
   margin: 0;
   line-height: 1; /* Stops text line-height from stretching the thin header */
   padding-top: 0.1px;
