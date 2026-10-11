@@ -107,7 +107,8 @@ main, .content-container {
   border-radius: 6px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: stretch; 
+  border: 2px solid transparent; 
   gap: 10px;
 }
 
@@ -152,6 +153,7 @@ main, .content-container {
   border-radius: 6px;
   overflow: hidden;
   width: 100%;
+  border: 2px solid transparent; 
   box-sizing: border-box;
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
@@ -167,8 +169,8 @@ main, .content-container {
 }
 
 .image-column {
-  flex: 0 1 300px; 
-  background-color: var(-color--1); /* Gray fallback background */
+  flex: 0 0 300px; 
+  background-color: var(--color-1); /* Gray fallback background */
   width: 100%;
   max-width: 300px;
   position: relative;
@@ -197,7 +199,6 @@ main, .content-container {
   flex-direction: column;
   min-width: 0;
 }
-
 .text-column  {
   margin: 0 0 5px 0;
   color: #143d4a;
@@ -206,12 +207,17 @@ main, .content-container {
 
 
 @media (max-width: 600px) {
-  .profile-row {
-    flex-direction: column; /* Stacks image on top, text on bottom */
+  .profile-row,
+  .profile-row.row-reverse {
+    flex-direction: column; /* Stacks vertically, overriding row-reverse alignment entirely */
   }
   .image-column {
     flex: 0 0 240px; /* Gives the picture box a standard aspect ratio on phones */
     width: 100%;
+  }
+  image-column img {
+    max-width: 250px; /* Caps the image size on mobile so it doesn't get gigantic on a tall phone screen */
+    margin: 0 auto;   /* Perfect fallback center alignment */
   }
 }
 
