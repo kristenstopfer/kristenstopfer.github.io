@@ -262,11 +262,11 @@ h5 {
 }
 
 a:link {
-    color: var(--color-6); /* default link color */
+    color: var(--color-8); /* default link color */
     text-decoration: none;
 }
 a:hover {
-    color: var(--color-1); 
+    color: var(--color-7); 
     text-shadow: 0 0 10px #ffffff;
 }
 
@@ -311,8 +311,9 @@ footer {
   --color-3: #47805C; /* green */
   --color-4: #1E412B; /* dark green */
   --color-5: #365568; /* blue */
-  --color-6: #172731; /* dark blue */
-
+  --color-6: #172731; /* dark blue */ 
+  --color-7: #9B541F; /*burnt orange*/
+  --color-8: #753F17; /*dark burnt orange*/ 
   /* teal tints */
   --color-1-tint-20: color-mix(in srgb, var(--color-1), #ffffff 20%);
   --color-1-tint-40: color-mix(in srgb, var(--color-1), #ffffff 40%);
@@ -348,4 +349,16 @@ footer {
   --color-6-tint-40: color-mix(in srgb, var(--color-6), #ffffff 40%);
   --color-6-tint-60: color-mix(in srgb, var(--color-6), #ffffff 60%);
   --color-6-tint-80: color-mix(in srgb, var(--color-6), #ffffff 80%);
+
+  /* orange tints */
+  --color-7-tint-20: color-mix(in srgb, var(--color-5), #ffffff 20%);
+  --color-7-tint-40: color-mix(in srgb, var(--color-5), #ffffff 40%);
+  --color-7-tint-60: color-mix(in srgb, var(--color-5), #ffffff 60%);
+  --color-7-tint-80: color-mix(in srgb, var(--color-5), #ffffff 80%);
+
+  /* dark orange tints */
+  --color-8-tint-20: color-mix(in srgb, var(--color-6), #ffffff 20%);
+  --color-8-tint-40: color-mix(in srgb, var(--color-6), #ffffff 40%);
+  --color-8-tint-60: color-mix(in srgb, var(--color-6), #ffffff 60%);
+  --color-8-tint-80: color-mix(in srgb, var(--color-6), #ffffff 80%);
 }
