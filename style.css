@@ -169,9 +169,9 @@ main, .content-container {
 
 .image-column {
   flex: 0 0 300px; 
-  background-color: var(--color-1); /* Gray fallback background */
+  background-color: var(--color-1); 
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   position: relative;
   display: flex;
   align-items: center;  /* Centers image vertically */
