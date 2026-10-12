@@ -186,7 +186,7 @@ main, .content-container {
 }
 
 .text-column {
-  flex: 1; /* Automatically takes up all remaining width */
+  flex: 1; 
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -204,15 +204,15 @@ main, .content-container {
 @media (max-width: 600px) {
   .profile-row,
   .profile-row.row-reverse {
-    flex-direction: column; /* Stacks vertically, overriding row-reverse alignment entirely */
+    flex-direction: column; 
   }
   .image-column {
-    flex: 0 0 240px; /* Gives the picture box a standard aspect ratio on phones */
+    flex: 0 0 240px;
     width: 100%;
   }
   image-column img {
-    max-width: 250px; /* Caps the image size on mobile so it doesn't get gigantic on a tall phone screen */
-    margin: 0 auto;   /* Perfect fallback center alignment */
+    max-width: 250px; 
+    margin: 0 auto;   
   }
 }
 
@@ -222,6 +222,7 @@ main, .content-container {
 
 h1 {
     font-family: 'Shizuru', sans-serif;
+    font-weight: normal;
     font-size: 40px;
     color: var(--color-1-tint-80); 
     padding: 20px;
@@ -260,20 +261,20 @@ a:link {
 }
 a:hover {
     color: var(--color-1); 
-    text-shadow: 0 0 1px var(--color-1), 0 0 10px #ffffff;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 section {
-    padding: 20px 20px; /* 60px top/bottom padding creates vertical space */
-    width: 100%;        /* Allows the section to fill the content container */
-    max-width: 1200px;  /* Matches your layout's upper width limit */
-    margin: 5px auto;   /* Changed 05px to 5px, and auto centers the sections */
+    padding: 20px 20px;
+    width: 100%;        
+    max-width: 1200px;  
+    margin: 5px auto;   
     text-align: center;
-    box-sizing: border-box; /* Ensures padding doesn't accidentally make sections too wide */
+    box-sizing: border-box;
 }
 
 #about, #research, #publications, #contact {
-    background-color: transparent; /* Makes sections inherit the main body color */
+    background-color: transparent; 
 }
 
 footer {
@@ -282,21 +283,20 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
-    max-width: none;            /* REMOVE or delete any max-width lines here */
-    margin: 0;                  /* Removes side margins so it touches the edges */
-    margin-top: auto;           /* Keeps it pinned to the bottom */
+    max-width: none;            
+    margin: 0;                  
+    margin-top: auto;         
     box-sizing: border-box; 
     flex-shrink: 0;
 }
 
-/* Ensure all webpage photos scale down nicely on phones and screens */
 .page-photo {
-    max-width: 600px; /* Prevents the image from being wider than its container */
-    height: auto;    /* Maintains the original aspect ratio so it doesn't stretch */
+    max-width: 600px; 
+    height: auto;    
     display: block;
-    margin: 20px auto; /* Centers the image horizontally with spacing around it */
-    border-radius: 8px; /* Smooths down the sharp corners */
-    box-shadow: 0 4px 15px rgba(210, 204, 245, 0.2); /* Soft purple layout glow */
+    margin: 20px auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(210, 204, 245, 0.2);
 }
 
 :root {
