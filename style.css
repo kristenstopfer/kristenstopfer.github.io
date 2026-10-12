@@ -65,31 +65,26 @@ html, body {
     font-size: 16px;
     color: var(--color-6);
     text-align: center;
-    /* Layout structural setup */
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-
-/* 2. Main Content Wrapper (Limits width of everything EXCEPT the footer) */
 main, .content-container {
     max-width: 1200px;
     width: 100%;
-    margin: 20px auto 0 auto; /* Handles the 100px top margin and centers it */
+    margin: 20px auto 0 auto; 
     box-sizing: border-box;
-    padding: 0 20px;           /* Prevents text from hitting screen edges */
-    flex: 1;                   /* Pushes the footer down naturally */
+    padding: 0 20px;           
+    flex: 1;                
 }
 
-/* Container Spacing */
 .page-container {
-  max-width: 1200px; /* Narrower width makes long text rows easier to read */
+  max-width: 1200px; 
   margin: 0 auto;
   padding: 20px 20px;
 }
 
-/* Heading styling matching your dark theme */
 .section-title {
   color: var(--color-2);
   font-size: 1.8rem;
@@ -119,21 +114,21 @@ main, .content-container {
 
 .text-section h2 {
   margin-top: 0;
-  margin-bottom: 4px; /* Gives just a tiny, clean gap between them */
-  line-height: 1.2;    /* Prevents the invisible font-box from pushing text away */
+  margin-bottom: 4px; 
+  line-height: 1.2;    
 }
 
 .text-section p {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.5;    /* Keeps paragraph text highly readable */
+  line-height: 1.5;  
 }
 
 .text-container .divider {
-  height: 1px; /* Thickness of the vertical line */
-  background-color: var(--color-1); /* Uses your theme color */
-  opacity: 0.4; /* Softens the line so it isn't too harsh */
-  align-self: stretch; /* Forces it to span from top to bottom padding bounds */
+  height: 1px; 
+  background-color: var(--color-1); 
+  opacity: 0.4; 
+  align-self: stretch; 
 }
 
 .text-container:hover {
@@ -142,7 +137,6 @@ main, .content-container {
   border-radius: 6px;
 }
 
-/* Row Container */
 .profile-row {
   display: flex;
   flex-direction: row;
@@ -171,22 +165,22 @@ main, .content-container {
   flex: 0 0 300px; 
   background-color: var(--color-1); 
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   position: relative;
   display: flex;
-  align-items: center;  /* Centers image vertically */
-  justify-content: center; /* Centers image horizontally */
-  padding: 25px; /* Creates the "smaller than container" buffer gap around the image */
+  align-items: center;  
+  justify-content: center; 
+  padding: 25px; 
   box-sizing: border-box;
 }
 
 .image-column img {
   width: 100%;
   max-width: 100%;
-  max-height: calc((300px - 20px) * 4/3);
+  max-height: calc((300px - 50px) * 4/3);
   height: auto;
   aspect-ratio: 3/4;
-  object-fit: cover; /* Crops the photo cleanly to fit the box without stretching */
+  object-fit: cover;  
   border-radius: 4px;
   display: block;
 }
@@ -265,8 +259,8 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color: var(--color-5); 
-    text-shadow: 0 0 10px #ffffff; /* glow effect*/
+    color: var(--color-1); 
+    text-shadow: 0 0 1px var(--color-1), 0 0 10px #ffffff;
 }
 
 section {
