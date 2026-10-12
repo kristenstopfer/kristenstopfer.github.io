@@ -12,8 +12,8 @@
   z-index: 1000;
   height: 80px;
   padding: 1px 10px;
-  padding-left: 20px;  
-  padding-right: 20px;
+  padding-left: 50px;  
+  padding-right: 50px;
   transition: padding 0.3s ease, font-size 0.3s ease;
   box-sizing: border-box;
 }
@@ -225,7 +225,7 @@ main, .content-container {
 h1 {
     font-family: 'Shizuru', sans-serif;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 50px;
     color: var(--color-1-tint-80); 
     padding: 20px;
 }
