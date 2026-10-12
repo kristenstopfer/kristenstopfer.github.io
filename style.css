@@ -168,7 +168,7 @@ main, .content-container {
 }
 
 .image-column {
-  flex: 0 0 300px; 
+  flex: 0 0 200px; 
   background-color: var(--color-1); 
   width: 100%;
   max-width: 200px;
