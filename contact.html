@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <h1>Kristen Stopfer, B.A., B.S.</h1>
         <nav>
@@ -18,33 +17,37 @@
               <a href="contact.html">contact</a>
         </nav>
     </header>
+ <main> 
+ <main class="page-container">
 
-    <main>
-        <section>
-            <h4>Contact me!</h4>
-            <p>Email: kstopfer@ttu.edu</p>
-            <p><a href="https://linkedin.com/in/kristenstopfer/" target="_blank" class="external-link">LinkedIn</a>.
-            </p>
-            <p><img src="bandelier.JPG" class="page-photo"></p>
-        </section>
-    </main>
+  <div class="profile-row" style="margin-top:70px;">
+        <div class="image-column">
+          <img src="bandelier.JPG" alt="Kristen Stopfer"> 
+        </div>
+    
+        <div class="text-column">
+          <h4>Contact me!</h4>
+          <p class="bio">
+                Email: kstopfer@ttu.edu
+                <a href="https://linkedin.com/in/kristenstopfer/" target="_blank" class="external-link">LinkedIn</a>.
+          </p>
+        </div>
+   </div>
+  </main>
 
-    <script>
+<script>
     const header = document.querySelector('header');
-
     function updateHeaderHeight() {
       if (header) {
         const headerHeight = header.offsetHeight; 
         document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
       }
-    }
-
-    // Run when layout is ready, when fully loaded, and whenever the screen changes size
+    } 
     window.addEventListener('DOMContentLoaded', updateHeaderHeight);
     window.addEventListener('load', updateHeaderHeight);
-    window.addEventListener('resize', updateHeaderHeight);
-  </script>
-    
+    window.addEventListener('resize', updateHeaderHeight);     
+</script>
+
 </body>
 
  <footer>
