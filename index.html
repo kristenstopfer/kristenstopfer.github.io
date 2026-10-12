@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Kristen Stopfer, B.A., B.S.</h1>
+        <h1>Kristen Stopfer</h1>
         <nav>
               <a href="index.html">home</a>  
               <a href="research.html">research</a>  
@@ -19,59 +19,37 @@
     </header>
    
     <main> 
+     <main class="page-container">
+     <div class="profile-row" style="margin-top:70px;">
+        <div class="image-column">
+          <img src="banff_profile.JPG" alt="Kristen Stopfer"> 
+        </div>
+        <div class="text-column">
+          <h4>about kristen</h4>
+              <p class="bio">
+                Kristen is a friend, an artist, and a scholar. She's a Pennslyvanian born & raised, the youngest of 3 siblings, and an avid crafter. She holds a B.A. in Political Science and a B.S. in Psychology from the University of Pittsburgh, and she is currently pursuing her PhD in Human Development and Family Sciences at Texas Tech University.
+              </p>
+        </div>
+      </div>
+    </main>
 
-        <main class="page-container">
- 
-     <!--     <h4 class="section-title">about kristen</h4>
-  
-  <!-- Profile Row Item -->
-  <div class="profile-row" style="margin-top:70px;">
-    <div class="image-column">
-      <img src="banff_profile.JPG" alt="Kristen Stopfer"> 
-      <!--<div class="image-fallback">Portrait</div>-->
-    </div>
-    
-    <div class="text-column">
-      <h4>about kristen</h4>
-      <p class="bio">
-        Kristen is a friend, an artist, and a scholar. She's a Pennslyvanian born & raised, the youngest of 3 siblings, and an avid crafter. She holds a B.A. in Political Science and a B.S. in Psychology from the University of Pittsburgh, and she is currently pursuing her PhD in Human Development and Family Sciences at Texas Tech University.
-      </p>
-    </div>
-  </div>
-
-  <!-- You can duplicate the .profile-row block here for more team members -->
-</main>
-
-     <!-- <section>
-            <img src="banff_profile.JPG" class="page-photo">
-            <h4>About Kristen</h4>
-            <p>Kristen is a friend, an artist, and a scholar. She's a Pennslyvanian born & raised, the youngest of 3 siblings, and an avid crafter. She holds a B.A. in Political Science and a B.S. in Psychology from the University of Pittsburgh, and she is currently pursuing her PhD in Human Development and Family Sciences at Texas Tech University. </p>
-            <img src="cabinet.jpg" class="page-photo">
-        </section> 
-
-        <div class="profile-section">
-     <main> -->
-         
-    <script>
+ <script>
     const header = document.querySelector('header');
-
     function updateHeaderHeight() {
       if (header) {
         const headerHeight = header.offsetHeight; 
         document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
       }
-    }
-    // Run when layout is ready, when fully loaded, and whenever the screen changes size
+    } 
     window.addEventListener('DOMContentLoaded', updateHeaderHeight);
     window.addEventListener('load', updateHeaderHeight);
-    window.addEventListener('resize', updateHeaderHeight);
-             
-  </script>
+    window.addEventListener('resize', updateHeaderHeight);     
+</script>
 
-        <footer>
+</body>
+
+ <footer>
         <p>&copy; 2026 </p>
-    </footer>
-<body>
-
-
-<html>
+ </footer>
+    
+</html>
