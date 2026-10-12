@@ -124,7 +124,11 @@ main, .content-container {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.5;  
+  margin: 0 0 5px 0;
+  color: var(--color-2);
+  font-size: 1.2rem;
 }
+
 
 .text-container .divider {
   height: 1px; 
