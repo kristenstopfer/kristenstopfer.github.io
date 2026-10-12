@@ -97,7 +97,7 @@ main, .content-container {
 
 .text-container {
   background: var(--color-1-tint-80);
-  padding: 10px;
+  padding: 30px;
   margin-bottom: 20px;
   width: 100%;
   box-sizing: border-box;
