@@ -147,7 +147,6 @@ main, .content-container {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  /*flex-wrap: wrap;  Crucial for mobile: wraps content when screen is tight */
   background: var(--color-1-tint-80);
   margin-bottom: 20px;
   border-radius: 6px;
@@ -184,7 +183,7 @@ main, .content-container {
 .image-column img {
   width: 100%;
   max-width: 100%;
-  max-height: calc((300px - 20px) * 4/3);
+  max-height: calc((200px - 20px) * 4/3);
   height: auto;
   aspect-ratio: 3/4;
   object-fit: cover; /* Crops the photo cleanly to fit the box without stretching */
