@@ -283,7 +283,7 @@ section {
     background-color: transparent; 
 }
 
-footer {
+/*footer {
     background-color: var(--color-2); 
     color: var(--color-1-tint-60);
     text-align: center;
@@ -294,7 +294,7 @@ footer {
     margin-top: auto;         
     box-sizing: border-box; 
     flex-shrink: 0;
-}
+}*/
 
 .page-photo {
     max-width: 600px; 
